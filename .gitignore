@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+
+# Project-specific generated files
+processed_links.txt
+
+# Personal notes (not part of the project)
+GITHUB_DEPLOYMENT_CHECKLIST.md
+PROJECT_SUMMARY_FOR_CV.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
