@@ -1,6 +1,6 @@
 # 🤖 RSS AI Agent - News Summarizer Agent
 
-Prosty, ale potężny agent AI napisany w Pythonie, który automatyzuje proces czytania newsów. Agent monitoruje wybrane kanały RSS, pobiera treść nowych artykułów, wysyła je do modelu LLM (np. GPT-3.5-turbo) w celu wygenerowania zwięzłego podsumowania, a następnie wysyła gotowy "digest" (zbiór podsumowań) na Twój adres e-mail.
+Agent AI napisany w Pythonie, który automatyzuje proces czytania newsów. Agent monitoruje wybrane kanały RSS, pobiera treść nowych artykułów, wysyła je do modelu LLM (np. GPT-3.5-turbo) w celu wygenerowania zwięzłego podsumowania, a następnie wysyła gotowy "digest" (zbiór podsumowań) na Twój adres e-mail.
 
 ## 💡 Kluczowe Funkcjonalności
 
@@ -92,10 +92,10 @@ Aby zatrzymać agenta, naciśnij `Ctrl + C` w terminalu.
 
 ```
 rss-ai-agent/
-├── .env                 # (Twój plik) Przechowuje sekrety i klucze API
+├── .env                 #  Przechowuje klucze API
 ├── .gitignore           # Ignoruje pliki wrażliwe (venv, .env, etc.)
-├── README.md            # Ta dokumentacja
-├── requirements.txt     # Zależności Python
+├── README.md            # Dokumentacja
+├── requirements.txt     # Zależności Pythona
 ├── config.py            # Konfiguracja (lista RSS, prompt, wczytywanie .env)
 ├── agent.py             # Główna logika, pętla i harmonogram (scheduler)
 ├── summarizer.py        # Moduł integracji z API OpenAI
@@ -123,5 +123,3 @@ AI Engineer | Automation Developer
 [LinkedIn](https://linkedin.com/in/szymon-cieslik-873003203) | [GitHub](https://github.com/RapidSwipe)
 
 ---
-
-**Built with Claude Code** 🤖
